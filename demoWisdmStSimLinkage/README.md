@@ -29,9 +29,9 @@ to size constraints. These libraries have been saved as backup files that can
 be downloaded [here](https://apexrmscom.sharepoint.com/:f:/s/External/El1jb0RXzJtJi4FprKtedE0B7Rs50z14xA3z_we9Fm_GMA?e=EsP7tI).
 Please note that the WISDM file is quite large (~5.7GB).
 
-These backup files should be downloaded to the 'library/' folder present in the same
+These backup files should be downloaded and saved into a folder named `library` that should created in the same
 folder as this README, not inside another folder (such as
-`scripts/`). Once downloaded, both backup files must be opened, and saved as active libraries to the same 'library/' folder.
+`scripts/`). Once downloaded, both backup files must be opened, and saved as active libraries to the same `library/` folder.
 
 ## Configuration
 
