@@ -1,0 +1,46 @@
+## Configuration file for WISDM and ST-Sim Linkage 
+## Canada Thistle Demo
+
+# WISDM ------------------------------------------------------------------------
+
+## library name
+wisdmLib: "CanadaThistleWisdmModel.ssim"
+
+## result scenarios to use in ST-Sim runs
+currentScenarioIDs:
+  - 57
+futureScenarioIDs:
+  - 59 
+
+## models to use in ST-Sim runs
+modType:
+  # - "GLM"
+  - "Random Forest"
+  # - "Maxent"
+  
+# ST-Sim -----------------------------------------------------------------------
+
+## library name
+stsimLib: "CanadaThistleStsimModel.ssim"
+
+## project name 
+projectName: "Canada Thistle"
+
+## sub scenario for spatial intial conditions datasheet
+intialConditionsSpatialScenarioID: 32
+
+## sub scenario for transition spatial multiplier datasheet
+transtionSpatialMultiplierScenarioID: 23
+
+## minimum timestep for current and future outputs (from WISDM runs)
+minTimestepCurrentScenario: 2013
+minTimestepFutureScenario: 2036
+
+# Syncrosim Settings -----------------------------------------------------------
+
+## syncrosim reference directory 
+ssimDir:
+
+## temporary output directory 
+tempDir: "data"
+
