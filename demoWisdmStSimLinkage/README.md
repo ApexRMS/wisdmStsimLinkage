@@ -27,8 +27,8 @@ however, this is not a strict requirement.
 Two SyncroSim libraries are required that are not included on the GitHub repository due
 to size constraints. These libraries have been saved as backup files that can
 be downloaded from the the following links: 
-- [Canada Thistle ST-Sim Library](https://s3.us-west-2.amazonaws.com/apexrms.com.public/USGS/A306/WISDM%20ST-Sim%20Linkage/Canada%20Thistle%20Demo/Input%20Libraries/CanadaThistleSTSimModel.ssim.backup.2023-08-25-at-11-28-04.ssimbak)
 - [Canada Thistle WISDM Library](https://s3.us-west-2.amazonaws.com/apexrms.com.public/USGS/A306/WISDM%20ST-Sim%20Linkage/Canada%20Thistle%20Demo/Input%20Libraries/CanadaThistleWisdmModel.ssim.backup.2023-08-28-at-15-34-19.ssimbak)
+- [Canada Thistle ST-Sim Library](https://s3.us-west-2.amazonaws.com/apexrms.com.public/USGS/A306/WISDM%20ST-Sim%20Linkage/Canada%20Thistle%20Demo/Input%20Libraries/CanadaThistleSTSimModel.ssim.backup.2023-08-25-at-11-28-04.ssimbak)
 
 Please note that the WISDM file is quite large (~5.7GB).
 
