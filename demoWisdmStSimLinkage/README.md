@@ -10,7 +10,7 @@ Below are the instructions to setup, configure, and run the code.
 
 #### [Configuration](#Configuration-1)
 
-#### [Running the Update](#Running)
+#### [Running Instructions](#Running)
 
 ## Setup
 
@@ -42,7 +42,7 @@ default. The YAML file syntax is fairly self-evident, but please see this short
 [overview](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
 for details.
 
-## <a name="Running"></a>Running the Update
+## <a name="Running"></a>Run Instructions
 
 Begin by opening the `demoWisdmStSimLinkage.Rproj` R project file to ensure the
 correct working directory is set in RStudio. Next, open the `link-wisdm-and-stsim-libraries.R` 
