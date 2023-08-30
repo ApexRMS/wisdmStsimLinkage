@@ -47,7 +47,7 @@ for details.
 
 ## <a name="Running"></a>Run Instructions
 
-Begin by opening the `demoWisdmStSimLinkage.Rproj` R project file to ensure the
+Begin by opening the `wisdmStsimLinkage.Rproj` R project file to ensure the
 correct working directory is set in RStudio. Next, open the `link-wisdm-and-stsim-libraries.R` 
 script and either run line-by-line or press the `source` button in the top right
 corner of the file editor pane of RStudio.
