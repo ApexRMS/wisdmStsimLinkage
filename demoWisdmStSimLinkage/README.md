@@ -1,6 +1,6 @@
 # Canada Thistle Demo
 
-This project contains code for linking a WISDM library for modelling Canada Thistle distribution with a ST-Sim library for modelling Canada Thistle establishment relative to different management and disturbance regims.
+This project contains code for linking a WISDM library for modelling Canada Thistle distribution with a ST-Sim library for modelling Canada Thistle establishment relative to different management and disturbance regimes.
 
 Below are the instructions to setup, configure, and run the code.
 
@@ -18,7 +18,7 @@ Below are the instructions to setup, configure, and run the code.
 
 These scripts require a working installations of R and SyncroSim, and were
 developed on R version v4.1.3 and SyncroSim v2.4.36. Additionally the following
-R packages must be installed: `rsyncrosim`, `tidyverse`, `terra`,`yaml`. The ST-Sim package (v3.3.13) must also be installed in
+R packages must be installed: `rsyncrosim`, `tidyverse`, `terra`, `yaml`. The ST-Sim package (v3.3.13) must also be installed in
 SyncroSim. The instructions to run the script assume you will be using [RStudio](https://rstudio.com/),
 however, this is not a strict requirement.
 
@@ -29,7 +29,7 @@ to size constraints. These libraries have been saved as backup files that can
 be downloaded [here](https://apexrmscom.sharepoint.com/:f:/s/External/El1jb0RXzJtJi4FprKtedE0B7Rs50z14xA3z_we9Fm_GMA?e=EsP7tI).
 Please note that the WISDM file is quite large (~5.7GB).
 
-These backup files should be downloaded and saved into a folder named `library` that should created in the same
+These backup files should be downloaded and saved into a folder named `library/` that should created in the same
 folder as this README, not inside another folder (such as
 `scripts/`). Once downloaded, both backup files must be opened, and saved as active libraries to the same `library/` folder.
 
@@ -49,7 +49,7 @@ correct working directory is set in RStudio. Next, open the `link-wisdm-and-stsi
 script and either run line-by-line or press the `source` button in the top right
 corner of the file editor pane of RStudio.
 
-This script is responsible for extracting the probability of occurence maps output by the pre-run WISDM scenarios and preparing them for use as Spatial Transition Multipliers in the pre-configured ST-Sim library. The script then generates and runs forecast scenarios associated with different management and distribution forecsates for canada thistle.
+This script is responsible for extracting the probability of occurrence maps output by the pre-run WISDM library and preparing them for use as Spatial Transition Multipliers in the pre-configured ST-Sim library. The script then generates and runs forecast scenarios associated with different management and distribution forecsates for Canada Thistle.
 
 Results can be viewed directly in the SyncroSim graphical user interface (GUI). Open the updated ST-Sim library and select the results scenarios from the `02 - Future Forecast` sub-folder of the `Full Scenarios` folder. Next select the Charts and Maps that you would like to view. You can also export tabular and map data to be viewed externally.
 
