@@ -10,7 +10,7 @@ Below are the instructions to setup, configure, and run the code.
 
 #### [Configuration](#Configuration-1)
 
-#### [Running Instructions](#Running)
+#### [Run Instructions](#Running)
 
 ## Setup
 
