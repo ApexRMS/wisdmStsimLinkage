@@ -17,7 +17,7 @@ Below are the instructions to setup, configure, and run the code.
 ### Dependencies
 
 These scripts require a working installations of R and SyncroSim, and were
-developed on R version v4.1.3 and SyncroSim v2.4.36. Additionally the following
+developed on R v4.1.3 and SyncroSim v2.4.36. Additionally the following
 R packages must be installed: `rsyncrosim`, `tidyverse`, `terra`, `yaml`. The ST-Sim package (v3.3.13) must also be installed in
 SyncroSim. The instructions to run the script assume you will be using [RStudio](https://rstudio.com/),
 however, this is not a strict requirement.
@@ -26,7 +26,9 @@ however, this is not a strict requirement.
 
 Two SyncroSim libraries are required that are not included on the GitHub repository due
 to size constraints. These libraries have been saved as backup files that can
-be downloaded [here](https://apexrmscom.sharepoint.com/:f:/s/External/El1jb0RXzJtJi4FprKtedE0B7Rs50z14xA3z_we9Fm_GMA?e=EsP7tI).
+be downloaded from the the following links: 
+- [Canada Thistle ST-Sim Library](https://s3.us-west-2.amazonaws.com/apexrms.com.public/USGS/A306/WISDM%20ST-Sim%20Linkage/Canada%20Thistle%20Demo/Input%20Libraries/CanadaThistleSTSimModel.ssim.backup.2023-08-25-at-11-28-04.ssimbak)
+- [Canada Thistle WISDM Library](https://s3.us-west-2.amazonaws.com/apexrms.com.public/USGS/A306/WISDM%20ST-Sim%20Linkage/Canada%20Thistle%20Demo/Input%20Libraries/CanadaThistleWisdmModel.ssim.backup.2023-08-28-at-15-34-19.ssimbak)
 Please note that the WISDM file is quite large (~5.7GB).
 
 These backup files should be downloaded and saved into a folder named `library/` that should created in the same
