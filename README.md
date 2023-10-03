@@ -18,7 +18,7 @@ Below are the instructions to setup, configure, and run the code.
 
 These scripts require a working installations of R and SyncroSim, and were
 developed on R v4.1.3 and SyncroSim v2.4.36. Additionally the following
-R packages must be installed: `rsyncrosim`, `tidyverse`, `terra`, `yaml`. The ST-Sim package (v3.3.13) must also be installed in
+R packages must be installed: `rsyncrosim` (v1.4.8 or higher), `tidyverse`, `terra`, `yaml`. The ST-Sim package (v3.3.13) must also be installed in
 SyncroSim. The instructions to run the script assume you will be using [RStudio](https://rstudio.com/),
 however, this is not a strict requirement.
 
